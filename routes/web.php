@@ -22,4 +22,7 @@ Route::group(['prefix' => 'admin'], function(){
     Route::get('/sign-out', function(){
         return 'sign me out';
     });
+    route::get('/testing-shit', function(){
+    	return "holy";
+    });
 });
