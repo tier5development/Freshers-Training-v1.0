@@ -24,5 +24,7 @@ Route::group(['prefix' => 'admin'], function(){
     });
     route::get('/testing-shit', function(){
     	return "holy";
+    Route::get('/another-shit', function(){
+        return "damn!";
     });
 });
