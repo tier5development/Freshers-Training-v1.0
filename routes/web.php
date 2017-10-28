@@ -27,4 +27,7 @@ Route::group(['prefix' => 'admin'], function(){
     Route::get('/another-shit', function(){
         return "damn!";
     });
+    Route::get('/signup-job', function(){
+        return "new task";
+    });
 });
